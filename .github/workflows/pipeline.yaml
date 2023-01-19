@@ -10,6 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with: node-version: '19'
+        with:
+          node-version: "19"
       - name: npm install
         run: npm install
