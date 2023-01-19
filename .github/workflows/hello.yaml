@@ -15,4 +15,4 @@ jobs:
       - name: Who am I?
         run: whoami
       - name: What's inside a directory?
-        run: ls
+        run: ls -l
