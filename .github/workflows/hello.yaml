@@ -10,3 +10,9 @@ jobs:
     steps:
       - name: Say hello
         run: echo "Hello World!"
+      - name: Say time
+        run: date
+      - name: Who am I?
+        run: whoami
+      - name: What's inside a directory?
+        run: ls
