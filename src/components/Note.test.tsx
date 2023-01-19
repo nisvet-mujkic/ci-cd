@@ -9,7 +9,7 @@ import Note from "./Note";
 
 test("renders content", () => {
   const note = {
-    content: "Hello thedre!",
+    content: "Hello there!",
   };
 
   render(<Note content={note.content} />);
