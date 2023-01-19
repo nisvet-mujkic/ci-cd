@@ -14,5 +14,5 @@ jobs:
           node-version: "19"
       - name: npm install
         run: npm install
-      - name: ls -l
-        run: ls -l
+      - name: lint
+        run: npm run lint
