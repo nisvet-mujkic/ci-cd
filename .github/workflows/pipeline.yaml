@@ -19,4 +19,4 @@ jobs:
       - name: build
         run: npm run build
       - name: test
-        run: echo "Running tests!"
+        run: npm run test
